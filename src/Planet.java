@@ -26,6 +26,7 @@ public class Planet implements Spinnable, AroundAnotherBody, ForItsAxis {
         System.out.println("For center = 465,1013 m/s");
     }
 
+
     @Override
     public void changeOfPositionForCenter(Boolean change) {
         if (change) {

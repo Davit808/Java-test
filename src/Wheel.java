@@ -6,6 +6,7 @@ public class Wheel implements Spinnable, ForItsAxis, DirectionOfRotation {
         System.out.println("Wheel is can going or stop");
     }
 
+
     @Override
     public void speed(int speed) {
         if (speed != 0) {
